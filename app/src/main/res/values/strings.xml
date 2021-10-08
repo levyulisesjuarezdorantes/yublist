@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Yuplist</string>
+    <string name="url_api">http://10.0.2.2:8080</string>
+    <string name="hint_product_name">Escribe nombre producto</string>
+    <string-array name="genera">
+        <item>SELECCIONA UNO</item>
+        <item>HOMBRE</item>
+        <item>MUJER</item>
+        <item>PREFIERO NO DECIR</item>
+    </string-array>
+    <string name="link_terminos_condiciones">
+
+        <a href="https://drive.google.com/file/d/1LD_0nW6Nxe_M708Ar8lLxVslvP70GYuK/view?usp=sharing">Ver términos y condiciones</a>
+    </string>
+    <string name="app_mob_id">ca-app-pub-3940256099942544~3347511713</string>
+    <string name="ad_mob_registro_view">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="ad_mob_compras_view">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="ad_mob_productos_view">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="ad_mob_interstitial">ca-app-pub-3940256099942544/1033173712</string>
+</resources>
