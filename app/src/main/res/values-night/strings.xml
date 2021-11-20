@@ -1,6 +1,30 @@
-<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_mob_id">ca-app-pub-3940256099942544~3347511713</string>
+    <string name="app_name">Yublist</string>
+    <!--    <string name="url_api">http://10.0.2.2:8080</string>-->
+    <string name="url_api">http://104.37.184.233:8081/</string>
+    <string name="hint_product_name">Escribe nombre producto</string>
+    <string-array name="genera">
+        <item>SELECCIONA UNO</item>
+        <item>HOMBRE</item>
+        <item>MUJER</item>
+        <item>PREFIERO NO DECIR</item>
+    </string-array>
+    <string name="link_terminos_condiciones">
+
+        <a href="https://docs.google.com/document/d/1LUU1ERGP8XcRAd4SeEJtkpWBkSd2qxEc/edit?usp=sharing&amp;amp;ouid=107063800556537340675&amp;amp;rtpof=true&amp;amp;sd=true">Aviso de privacidad</a>
+    </string>
+<!--    <string name="app_mob_id">ca-app-pub-3940256099942544~3347511713</string>
     <string name="ad_mob_registro_view">ca-app-pub-3940256099942544/6300978111</string>
-    <string name="ad_mob_interstitial">ca-app-pub-3940256099942544/1033173712</string>
+    <string name="ad_mob_compras_view">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="ad_mob_productos_view">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="ad_mob_interstitial">ca-app-pub-3940256099942544/1033173712</string>-->
+
+
+    <string name="app_mob_id">ca-app-pub-2849313918987148~9835332349</string>
+    <string name="ad_mob_registro_view">ca-app-pub-2849313918987148/5720827516</string>
+    <string name="ad_mob_compras_view">ca-app-pub-2849313918987148/7716435462</string>
+    <string name="ad_mob_productos_view">ca-app-pub-2849313918987148/5090272122</string>
+    <string name="ad_mob_interstitial">ca-app-pub-2849313918987148/6211782106</string>
+
+
 </resources>

@@ -3,12 +3,15 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/BMXIST051679/AndroidStudioProjects/Yuplist/app/src/main/res/drawable/ic_launcher_background.xml" value="0.16145833333333334" />
         <entry key="..\:/Users/BMXIST051679/AndroidStudioProjects/Yuplist/app/src/main/res/layout/activity_compras.xml" value="0.23867753623188406" />
         <entry key="..\:/Users/BMXIST051679/AndroidStudioProjects/Yuplist/app/src/main/res/layout/activity_productos.xml" value="0.23867753623188406" />
         <entry key="..\:/Users/BMXIST051679/AndroidStudioProjects/Yuplist/app/src/main/res/layout/activity_registro.xml" value="0.19157608695652173" />
         <entry key="..\:/Users/BMXIST051679/AndroidStudioProjects/Yuplist/app/src/main/res/layout/layout_row_compras.xml" value="0.23867753623188406" />
         <entry key="..\:/Users/BMXIST051679/AndroidStudioProjects/Yuplist/app/src/main/res/layout/layout_row_productos.xml" value="0.23867753623188406" />
         <entry key="..\:/Users/BMXIST051679/AndroidStudioProjects/Yuplist/app/src/main/res/menu/layout_menu_products.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/BMXIST051679/AndroidStudioProjects/Yuplist/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.16145833333333334" />
+        <entry key="..\:/Users/BMXIST051679/AndroidStudioProjects/Yuplist/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.16145833333333334" />
       </map>
     </option>
   </component>

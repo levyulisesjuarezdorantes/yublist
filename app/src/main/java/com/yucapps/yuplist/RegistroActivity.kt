@@ -90,13 +90,12 @@ class RegistroActivity : AppCompatActivity() {
 
 
     fun loadSpinnerGenero(){
-     //   val generoOptionsList = resources.getStringArray(R.array.tes)
         val generoOptionsList = listOf<String>("SELECCIONA UNO","HOMBRE","MUJER","PREFIERO NO DECIR")
         val generoList = mutableListOf<Genero>()
-        val id : Short = -1
+        var id : Short = -1
         for (gen in generoOptionsList){
             generoList.add(Genero(id,gen))
-            id.inc()
+            id = id.inc()
         }
         val adapter = ArrayAdapter(this, R.layout.simple_list_item_1,generoList)
         binding.spnGenero.adapter = adapter
@@ -224,7 +223,7 @@ class RegistroActivity : AppCompatActivity() {
             binding.inputLayoutEdad.error=null
         }
         if(binding.chkTerminosCondiciones.isChecked==false){
-            Toast.makeText(RegistroActivity@this,"Por favor acepte términos y condiciones",Toast.LENGTH_LONG).show()
+            Toast.makeText(RegistroActivity@this,"Por favor acepte aviso de privacidad",Toast.LENGTH_LONG).show()
             return false
         }
         return true
@@ -250,6 +249,7 @@ class RegistroActivity : AppCompatActivity() {
             override fun onResponse(call: Call<String>, response: Response<String>) {
                 if(response.isSuccessful){
                     Toast.makeText(this@RegistroActivity,"Registrado!!!",Toast.LENGTH_SHORT).show()
+                    finish()
                     goNextScreen()
                 }else{
                     Toast.makeText(applicationContext,"No fue posible registrar",Toast.LENGTH_LONG).show()
