@@ -2,7 +2,7 @@
     <string name="app_name">Yublist</string>
     <!--    <string name="url_api">http://10.0.2.2:8080</string>-->
     <string name="url_api">http://104.37.184.233:8081/</string>
-    <string name="hint_product_name">Escribe nombre producto</string>
+    <string name="hint_product_name">Escribe nombre de producto</string>
     <string-array name="genera">
         <item>SELECCIONA UNO</item>
         <item>HOMBRE</item>

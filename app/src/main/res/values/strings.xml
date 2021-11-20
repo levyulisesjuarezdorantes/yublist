@@ -5,7 +5,7 @@
 
 
 
-    <string name="hint_product_name">Escribe nombre producto</string>
+    <string name="hint_product_name">Escribe nombre de producto</string>
     <string-array name="genera">
         <item>SELECCIONA UNO</item>
         <item>HOMBRE</item>
