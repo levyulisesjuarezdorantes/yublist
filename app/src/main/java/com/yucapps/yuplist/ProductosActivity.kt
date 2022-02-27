@@ -202,11 +202,11 @@ class ProductosActivity : AppCompatActivity() , ProductoCheckedListener {
         viewModel.loadProductos(this@ProductosActivity)
         viewModel.productosObservable.observe(this, Observer<List<ProductoDto>>{
             if(it==null){
-                Toast.makeText(this@ProductosActivity,"Agregue productos a la lista", Toast.LENGTH_LONG).show()
+                Toast.makeText(this@ProductosActivity,"Agregue productos a la lista", Toast.LENGTH_SHORT).show()
             }else{
                 if(it.size==0)
                     Toast.makeText(this@ProductosActivity,"Agregue productos a la lista de compras",
-                        Toast.LENGTH_LONG).show()
+                        Toast.LENGTH_SHORT).show()
                 recycleView.productosUsuario = it.toMutableList()
                 recycleView.notifyDataSetChanged()
             }

@@ -102,6 +102,9 @@ class RecyclerViewAdapterProductos(val productoCheckedListener: ProductoCheckedL
             if(data.precio!=null){
                 txvPrecioProducto.setText(NumberFormat.getCurrencyInstance().format(data.precio!!))
             }
+            else{
+                txvPrecioProducto.text = null
+            }
             checkedItem.isChecked = data.checked
             if(data.checked){
                 txvNombreProducto.paintFlags =  Paint.STRIKE_THRU_TEXT_FLAG
