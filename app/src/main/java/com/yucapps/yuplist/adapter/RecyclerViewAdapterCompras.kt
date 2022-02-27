@@ -37,7 +37,7 @@ class RecyclerViewAdapterCompras(val comprasListener: ComprasListener):RecyclerV
             intent.putExtra("deviceId",deviceId)
             val compraIdd = comprasUsuario[position].compraId
             intent.putExtra("compraId",compraIdd)
-
+            intent.putExtra("compraNameList",comprasUsuario[position].nombre)
             context.startActivity(intent)
         }
         holder.view.setOnLongClickListener{

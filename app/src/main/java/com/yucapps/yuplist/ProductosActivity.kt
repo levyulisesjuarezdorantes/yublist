@@ -42,6 +42,7 @@ class ProductosActivity : AppCompatActivity() , ProductoCheckedListener {
     lateinit var binding : ActivityProductosBinding
     private lateinit var viewModel: ProductosUsuarioViewModel
     private  lateinit var deviceId : String
+    private  lateinit var compraNamelist : String
     private  var compraId:Long = 0
     lateinit var recycleView: RecyclerViewAdapterProductos
 
@@ -53,7 +54,9 @@ class ProductosActivity : AppCompatActivity() , ProductoCheckedListener {
         binding = ActivityProductosBinding.inflate(layoutInflater)
         setContentView(binding.root)
         deviceId = intent.getStringExtra("deviceId").toString()
+        compraNamelist = intent.getStringExtra("compraNameList").toString()
         compraId = intent.getLongExtra("compraId",-1)
+        this.title = compraNamelist
         initViewModel()
         initReclyclerView()
         initButtonAddProductoActions()
