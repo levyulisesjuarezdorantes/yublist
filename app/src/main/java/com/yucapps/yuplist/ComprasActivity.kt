@@ -115,11 +115,14 @@ class ComprasActivity : AppCompatActivity() , ComprasListener {
     }
     fun initViewModel(){
         viewModel = ViewModelProvider(this)[ComprasUsuarioViewModel::class.java]
+
         viewModel.deviceId = deviceId
+
+        Toast.makeText(this@ComprasActivity,deviceId,Toast.LENGTH_SHORT).show()
         viewModel.loadCompras(this@ComprasActivity)
         viewModel.comprasObservable.observe(this, Observer<List<CompraHeaderDto>>{
             if(it==null){
-                Toast.makeText(this@ComprasActivity,"Ya puede Agregar listas para comprars", Toast.LENGTH_LONG).show()
+                Toast.makeText(this@ComprasActivity,"Ya puede Agregar listas para comprarse", Toast.LENGTH_LONG).show()
             }else{
                 if(it.size==0)
                     Toast.makeText(this@ComprasActivity,"Ya puede Agregar listas para comprar", Toast.LENGTH_LONG).show()

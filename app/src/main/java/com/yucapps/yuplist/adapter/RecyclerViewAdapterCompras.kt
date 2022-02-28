@@ -11,6 +11,7 @@ import android.view.ViewGroup
 import android.widget.EditText
 import android.widget.LinearLayout
 import android.widget.TextView
+import android.widget.Toast
 import androidx.recyclerview.widget.RecyclerView
 import com.yucapps.yuplist.ComprasListener
 import com.yucapps.yuplist.ProductosActivity
@@ -35,9 +36,9 @@ class RecyclerViewAdapterCompras(val comprasListener: ComprasListener):RecyclerV
             val context =  holder.view.context
             val intent = Intent(context, ProductosActivity::class.java)
             intent.putExtra("deviceId",deviceId)
-            val compraIdd = comprasUsuario[position].compraId
-            intent.putExtra("compraId",compraIdd)
-            intent.putExtra("compraNameList",comprasUsuario[position].nombre)
+            val compraId = data.compraId
+            intent.putExtra("compraId",compraId)
+            intent.putExtra("compraNameList",data.nombre)
             context.startActivity(intent)
         }
         holder.view.setOnLongClickListener{
